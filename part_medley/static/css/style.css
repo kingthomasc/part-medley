@@ -29,6 +29,7 @@ nav ul li {
 .wrapper {
 	width: 95%;
 	margin: 0 auto;
+	position: relative;
 }
 .row:first-of-type {
 	margin-top: 55px;
