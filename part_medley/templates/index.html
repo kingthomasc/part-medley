@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="/static/css/normalize.css" />
+
+    <link rel="stylesheet" href="/static/css/foundation.min.css" />
+
+    <link href="/static/css/fontawesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" media="screen, handheld and (orientation : portrait)">
+    <link rel="stylesheet" type="text/css" href="/static/css/tablet.css" media="screen and (min-width: 32em) and (max-width: 75em)">
+    <link rel="stylesheet" type="text/css" href="/static/css/desktop.css" media="screen and (min-width: 75em)">
+    
+    <script type="text/javascript" src="/static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/static/js/masonry.pkgd.js"></script>
+
+    <title>Part Medly</title>
+
+</head>
+<body>
+	
+	<nav>
+		<section class="wrapper">
+			<a href="#"><i class="fa fa-fw fa-ellipsis-v"></i></a>
+			<a href="/">Part Medley</a>
+			<a href="#"><i class="fa fa-fw fa-filter"></i></a>
+			<input type="text">
+			<button type="submit">
+				Search
+			</button>
+			<button type="submit">
+				Explore
+			</button>
+			<ul>
+				<li>Welcome<a href="#"> Jeremy</a></li>
+				<li><i class="fa fa-fw fa-bars"></i></li>
+			</ul>
+		</section>
+	</nav>
+	
+
+	<div id="masonry_container">
+		<div class="item">here is an item</div>
+		<div class="item">here is an item2</div>
+		<div class="item">here is an item3</div>
+		<div class="item">here is an item4</div>
+		<div class="item">here is an item5</div>
+	</div>
+	
+
+	<footer>
+		<!-- WORRY ABOUT THIS LATER -->
+	</footer>
+
+	<script type="text/javascript">
+		var $container = $('#masonry_container');
+		// initialize
+		$container.masonry({
+		  columnWidth: 200,
+		  itemSelector: '.item'
+		});
+	</script>
+</body>
+

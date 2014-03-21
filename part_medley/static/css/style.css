@@ -33,3 +33,11 @@ nav ul li {
 .row:first-of-type {
 	margin-top: 55px;
 }
+
+.item {
+	width: 200px;
+}
+
+#masonry_container {
+	margin-top: 55px;
+}
